@@ -8,7 +8,7 @@ import { User } from '../model/user';
   templateUrl: './user-form.component.html',
   styleUrls: ['./user-form.component.scss']
 })
-export class UserFormComponent implements OnInit {
+export class UserFormComponent { // implements OnInit {
 
   user: User;
 
